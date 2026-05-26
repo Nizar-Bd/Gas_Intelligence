@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Data — versionner uniquement le code, pas les dumps lourds
+data/raw/**
+data/clean/**
+data/external/**
+!data/**/.gitkeep
+
+# Notebooks — checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Reports
+reports/figures/*
+!reports/figures/.gitkeep
